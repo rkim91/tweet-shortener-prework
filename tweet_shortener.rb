@@ -18,8 +18,9 @@ def word_substituter(string)
   stringarr = string.split(" ")
   stringarr.each do |word|
     hash.each do |keys, values|
-      if word == keys.to_s
-        values
+      # if word == 
+        keys.to_s
+        # values
       end
     end
   end
