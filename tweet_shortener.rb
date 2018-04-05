@@ -12,3 +12,8 @@ def dictionary
     and: "&"
   }
 end
+
+def word_substituter(string)
+  string.split
+  return string
+end
