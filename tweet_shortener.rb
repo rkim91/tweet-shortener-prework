@@ -16,8 +16,11 @@ end
 def word_substituter(string)
   hash = dictionary
   stringarr = string.split(" ")
-  stringarr.each do |x|
-    words.each do |y, z|
+  stringarr.each do |word|
+    words.each do |keys, values|
+      if word == keys.to_s
+        word = values
+      end
     end
   end
 end
