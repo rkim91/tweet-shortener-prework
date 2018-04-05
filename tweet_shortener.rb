@@ -23,4 +23,5 @@ def word_substituter(string)
       end
     end
   end
+  return string.arr.join
 end
