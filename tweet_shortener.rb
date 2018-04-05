@@ -14,5 +14,6 @@ def dictionary
 end
 
 def word_substituter(string)
-  string.split(" ")
+  stringarr = string.split(" ")
+  return stringarr
 end
