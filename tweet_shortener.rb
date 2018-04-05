@@ -19,7 +19,7 @@ def word_substituter(string)
   stringarr.each do |word|
     hash.each do |keys, values|
       if word == keys.to_s
-        word = values
+        values
       end
     end
   end
