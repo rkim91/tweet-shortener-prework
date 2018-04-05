@@ -20,6 +20,4 @@ def word_substituter(string)
     words.each do |y, z|
     end
   end
-    
-  
 end
