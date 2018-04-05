@@ -14,6 +14,8 @@ def dictionary
 end
 
 def word_substituter(string)
-  stringarr = string.split(" ")
-  return stringarr
+  hash = dictionary
+  # stringarr = string.split(" ")
+  # stringarr.each do |x|
+    return hash
 end
