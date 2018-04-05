@@ -18,7 +18,7 @@ def word_substituter(string)
   stringarr = string.split(" ")
   stringarr.each_with_index do |word, index|
     hash.each do |keys, values|
-      if word == keys.to_s
+      if word == keys.to_s.downcase
        stringarr[index] = values
       end
     end
