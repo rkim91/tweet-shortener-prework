@@ -39,5 +39,3 @@ def selective_tweet_shortener(string)
     return word_substituter(string)
   end
 end
-
-def
