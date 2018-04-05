@@ -20,8 +20,8 @@ def word_substituter(string)
     hash.each do |keys, values|
       # if word == 
         keys.to_s
-        # values
-      end
+       # values
+      # end
     end
   end
 end
